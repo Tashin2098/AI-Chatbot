@@ -1,0 +1,85 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "What's up", "Good day", "Hi there", "Hey there"],
+      "responses": ["Hello!", "Hi there!", "Hey!", "Howdy!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you", "Catch you later", "See you soon", "Talk to you later"],
+      "responses": ["Goodbye!", "See you soon!", "Bye! Take care!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "I appreciate it", "Thanks a lot"],
+      "responses": ["You're welcome!", "No problem!", "Glad I could help!"]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": ["how are you", "how's it going", "how do you do", "how are you doing?", "what's up", "how have you been"],
+      "responses": ["I'm doing well, thanks!", "All good here!", "I'm fine, thank you!", "Doing great! How about you?"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What's your name?", "Who are you?", "Do you have a name?", "What should I call you?"],
+      "responses": ["I'm your friendly AI chatbot!", "You can call me Chatbot.", "I'm Chatbot, at your service!"]
+    },
+    {
+      "tag": "creator",
+      "patterns": ["Who created you?", "Who made you?", "Who is your developer?"],
+      "responses": ["I was created by a talented developer.", "A developer made me to chat with you!", "I'm the product of some coding magic."]
+    },
+    {
+      "tag": "university_info",
+      "patterns": ["Best private universities in Bangladesh", "Top private universities", "Which are the best private universities?", "Name some good private universities"],
+      "responses": [
+        "Here are some top private universities in Bangladesh:\n- BRAC University\n- North South University (NSU)\n- Independent University, Bangladesh (IUB)\n- Ahsanullah University of Science and Technology (AUST)\n- East West University (EWU)"
+      ]
+    },
+    {
+      "tag": "programming_help",
+      "patterns": ["Help me with Python", "I need help with coding", "What is a function in Python?", "What is a loop?"],
+      "responses": [
+        "Sure! A function in Python is defined using `def`, and it helps organize code into reusable blocks.",
+        "Loops allow you to repeat code. In Python, we use `for` and `while` loops for iteration.",
+        "Tell me exactly what you’re stuck with and I’ll try to help!"
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": ["I'm feeling down", "I need motivation", "Say something inspiring", "Cheer me up"],
+      "responses": [
+        "You are stronger than you think. Keep pushing forward!",
+        "Every day is a new chance to be better.",
+        "Believe in yourself. You've got this!"
+      ]
+    },
+    {
+      "tag": "fun_fact",
+      "patterns": ["Tell me a fun fact", "Say something interesting", "I want to learn something new"],
+      "responses": [
+        "Did you know? Honey never spoils. Archaeologists have found 3000-year-old honey in Egyptian tombs that's still edible!",
+        "Octopuses have three hearts and blue blood. Wild, right?",
+        "Bananas are berries, but strawberries aren't!"
+      ]
+    },
+    {
+      "tag": "ai_definition",
+      "patterns": ["What is AI?", "Define artificial intelligence", "Explain AI", "What does AI mean?"],
+      "responses": [
+        "Artificial Intelligence (AI) is the simulation of human intelligence in machines that are programmed to think and learn.",
+        "AI allows computers to perform tasks like speech recognition, decision-making, and visual perception."
+      ]
+    },
+    {
+      "tag": "sad",
+      "patterns": ["I am sad", "I'm not feeling well", "I'm depressed", "I'm feeling lonely"],
+      "responses": [
+        "I'm really sorry you're feeling this way. Want to talk about it?",
+        "You're not alone. I'm here to listen if you need to vent.",
+        "It's okay to feel down sometimes. Things will get better. 🌈"
+      ]
+    }
+  ]
+}
